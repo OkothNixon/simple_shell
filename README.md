@@ -1,127 +1,137 @@
- <img align="left" height="200" width="320" alt="" src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/coder.gif" />
-<h1 align="center">
-Hellooo! my fellow < Devs/ >!  
-<img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
-</h1>
-<h1 align="center">
- I ❤️ code.
-</h1>
-<p align="center">
-  <a href="https://github.com/DavidJ001/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com/?lines=I'm%20David%20Joel.;A%20Passionate%20Software%20Engineer;from%20Nairobi,%20Kenya.;Ready%20to%20learn%20new%20things%2e&font=Fira%20Code&center=true&width=460&height=50&color=990099&vCenter=true&size=22"></a>
-    </p>
-
-<!-- - 🔭 Check out my Podcast and [Discover Your Power!][Podcast] -->
-- 🌱 I’m currently learning how to code a fresh 🤣
-- 👯 I’m looking to collaborate with other learners and creatives
-- 🥅 2022 Goals: Learn more Python, more about Data Science and Cloud Computing
-- ⚡ Fun fact: I love to draw and swimming is my favorite sport!
-
- 
 
 
- ### Connect with me:
- 
-[![website](./img/twitter-light.svg)](https://twitter.com/Significant_Joe#gh-light-mode-only)
-[![website](./img/twitter-dark.svg)](https://twitter.com/Significant_Joe#gh-dark-mode-only)
-&nbsp;&nbsp;
-[![website](./img/linkedin-light.svg)](https://linkedin.com/in/david-olago-973200125#gh-light-mode-only)
-[![website](./img/linkedin-dark.svg)](https://https://linkedin.com/in/david-olago-973200125#gh-dark-mode-only)
-&nbsp;&nbsp;
-[![website](./img/instagram-light.svg)](https://instagram.com/lord_davidj#gh-light-mode-only)
-[![website](./img/instagram-dark.svg)](https://instagram.com/lord_davidj#gh-dark-mode-only)
- 
- ### A little more about me...  
-```javascript
-const joe = {
-  gender: "male",
-  code|tools: [Javascript, HTML, CSS, C, Python, React, Git, SQL, Shell, Linux, RHEL, Oracle-DBA, Terminal],
-  skills: ["photoshop", "premierPro", "afterEffects"],
-  experience: {
-                        organization: "New_Life_Health_Opinion",
-                        field: "Medical_Tourism",
-                        position: "CTO"
-                      },
- occupation: "I am a software engineering student at the ALX-Holberton Schools."
-}
-```
+# Shell Project `(simple Shell)`
 
-<!--   <div id="badges" align="center">
-  <div id="badges" align="center">
-  <a href="https://www.linkedin.com/in/david-olago-973200125/">
-    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
-  </a>
-  <a href="https://twitter.com/Significant_Joe">
-    <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/>
-  </a>
-    <a href="https://www.facebook.com/david.megabillion?_rdc=1&_rdr">
-      <img src="https://img.shields.io/badge/Facebook-blue?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook Badge"/> 
-      
+By David Joel, and Nixon Okoth
 
-</div> 
-</div> -->
- 
- <h2 align="center">⚡ Stats ⚡</h2>
-<br>
-<p align=center>
-  <div align=center>
-    <a href="https://github.com/denvercoder1/github-readme-streak-stats" title="Go to Source">
-      <img align="left" width=390 src="https://github-readme-streak-stats.herokuapp.com/?user=DavidJ001&theme=react&border=61dafb&hide_border=true" alt="DavidJ001" />
-    </a>
-    <a href="https://github.com/anuraghazra/github-readme-stats" title="Go to Source">
-      <img align="right" width=390 src="https://github-readme-stats.vercel.app/api?username=DavidJ001&show_icons=true&theme=react&border_color=61dafb&hide_border=true" />
-    </a>
-  </div>
-  <br><br><br><br><br><br><br><br><br>
-  <div align=center>
-    <a href="https://github.com/anuraghazra/github-readme-stats">
-      <img width=325 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DavidJ001&hide=c%23,powershell,Mathematica,Ruby,Objective-C,Objective-C%2b%2b,Cuda&title_color=61dafb&text_color=ffffff&icon_color=61dafb&bg_color=20232a&langs_count=8&layout=compact&border_color=61dafb&hide_border=true" />
-    </a>
-  </div>
-  <br>
-  <img src="https://activity-graph.herokuapp.com/graph?username=DavidJ001&theme=react-dark&bg_color=20232a&hide_border=true" width="100%"/>
-</p>
-<!-- <h2 align="center">
- Stats
- </h2>
-<img align="left" width="47%" src="https://github-readme-stats.vercel.app/api?username=DavidJ001&show_icons=true&theme=radical" /> 
-<img align="left" width="47%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DavidJ001&layout=compact" />  -->
- 
-<!--  [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=DavidJ001&theme=dark&hide_border=true&date_format=M%20j%5B%2C%20Y%5D)](https://git.io/streak-stats)  -->
+A simple command-line interpreter developed as an end of trimester project at the ALX-Holberton School.
+
+<h2>Description: :thought_balloon:</h2>
+
+Simple shell reads simple commands from standard input or from a file and executes them.
+
+<h3>Compilation :fireworks::</h3>
+
+To invoke simple_shell, you must compile all the *.c files in the repository and run the resulting executable:
+
+`gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh`<br/>
+`./hsh`
+
+Simple shell can be invoked in two modes: interactive and non-interactive.<br/>
+
+**Non-interactive mode**
+
+If invoked with standard input simple shell will read and execute commands in order.
+
+Example:
+
+`root@dea58c22b3fe:~/simple_shell# echo "/bin/ls" | ./hsh`<br/>
+`'#README.md#'       a.out        getEnvironCharN.c   main.c                  strD2PathCpy.c   strtokPath.c`<br/>
+`6forkExePrueba.c   concPath.c   hsh                 man_1_simple_shell.gz   strconcat.c`<br/>
+`README.md          funcs.c      lib.h               strD2Cpy.c              strtok.c`<br/>
+`root@dea58c22b3fe:~/simple_shell# echo "pwd" | ./hsh`<br/>
+`/root/simple_shell`<br/>
+`root@dea58c22b3fe:~/simple_shell#`<br/>
 
 
-<br />
-<br />
- 
-<!--  ### :hammer_and_wrench: Languages and Tools :
-  <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>&nbsp;
- <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg" title="React" alt="React" width="40" height="40"/>&nbsp;
- <img src="https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-original-wordmark.svg" title="MySQL"  alt="MySQL" width="40" height="40"/>&nbsp;
-   <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg"  title="CSS3" alt="CSS" width="40" height="40"/>&nbsp;
- <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
-   <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" alt="Git Image" width="40" height="40"/>&nbsp; -->
- 
- 
- 
-<!--  <h2 align="center">📈 Activity</h2>
-<a href="https://github.com/DavidJ001/github-readme-activity-graph"> <img align="center" src="https://activity-graph.herokuapp.com/graph?username=DavidJ001&theme=material-palenight" /> </a>
-<br /> -->
-<!-- [![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=olagodavid&cover_image=true&theme=novatorem&bar_color=4e51b1&bar_color_cover=false)](https://spotify-github-profile.vercel.app/api/view?uid=olagodavid&redirect=true) -->
+**Interactive mode**
 
-<h3 align="center">
-Show some ❤️ by starring some of the repositories!
-</h3>
-</div>
-<!--  <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>I love connecting with different people</b> so if you want to say <b>hi, I'll be happy to meet you more!</b> :)</em>
-<!-- ## Check out my channel [King David][youtube] --> 
+Simple shell can also be invoked with standard input which will be determined isatty(). In this mode simple_shell will display a prompt, $, when ready to read the user's input.
+
+Example:
+
+`root@dea58c22b3fe:~/simple_shell# ./hsh`<br/>
+`$ ls`<br/>
+`6forkExePrueba.c  concPath.c         hsh     man_1_simple_shell.gz  strconcat.c`<br/>
+`README.md         funcs.c            lib.h   strD2Cpy.c             strtok.c`<br/>
+`a.out             getEnvironCharN.c  main.c  strD2PathCpy.c         strtokPath.c`<br/>
+`$ pwd`<br/>
+`/root/simple_shell`<br/>
+`$ sooooo`<br/>
+`IT DOES NOT WORK!`<br/>
 
 
+- ### How the shell works?
 
-[website]: https://davidj001.github.io
-[podcast]: http://spotify.com
-[twitter]: https://twitter.com/
-<!-- [youtube]: https://youtube.com/channel/UCmfhg0x9C5kFCZG7tCi473A -->
-[instagram]: https://instagram.com/lord_davidj
-[linkedin]: https://linkedin.com/in/david-olago-973200125/
+  1. ** The shell prompts for user input **
+
+     Using the `write()` function to display (stdout(1)) `$ `
+
+  2. Get user input.
+
+     Using the `char *user_input(void);` function, which uses `getline()`function to get and store user input into a buffer, which getline mallocs for, if getline succeds, the function returns the buffer that holds the user input. 
+
+  3. Parse the input.
+
+     Using the `char **tokens(char *buffer);` function, tokanizes the user input and saves each token into a double pointer erray(**hold_tokens). The double pointer erray is then returned.
+
+  4. Run the command.
+
+     1. Using the `int _execute(char **args);` function, checks if the user input is a builtin or not(this is called a filler). For example if the command `exit` is the user input. the function will make sure the command is in the array list of builtin commands."exit" or "env".
+
+     2. If it's not then then the `int run(char **args);` function is returned.
+
+     3. Using the `int run(char **args);` function, creates a child Proccess, In the child process we check if the user input is a path command (`/bin/ls`) or a regular command (`ls`). If it is a regular command (`ls`) we tokanize the path variable whos value is equall to PATH env variable, and cp = strcat("/", ls); = `/ls`, we then append `cp` to every path's token deliminated by `:`. This is saved into a variable called new. And then using `access` we check if the `new` variable is correct(`ls` is in the dir) or if we can execute `ls`. If so then `execve` the new varible. But if the user input is is a path then we skip all the above steps and just assigned the path to `execve`. AND finally if neither is true then `perror`.(print error).
+
+  5. Starts again at number 1 until terminated(exit, or with kill signals).
+
+- ### The PATH(env var)
+
+  ** PATH ** is an environmental ** variable in Linux ** and other Unix-like operating systems that tells the shell which directories to search for executable files. Understanding the path, is really important to buiding a shell. Its important to know how to access the PATH (working with environmental variables). 
+
+  
+
+- ### Builtins
+
+  A builtin command is a Linux/Unix command which is "* built into a shell interpreter * such as sh, ksh, bash, etc.
+
+  
+
+  ```c
+  #include "simpleshell.h"
+  
+  /**
+  * main - main shell function, where the magic happens
+  * takes in no arg
+  * Return: return (0) on success
+  */
+  
+  int main(void)
+  {
+  	/* the dollar :)*/
+  	char *prompt = "$ ";
+  
+  	char *buffer;
+  	char **cmd;
+  
+  	while (1)
+  	{
+  		write(1, prompt, (sizeof(char) * 2));
+  		buffer = user_input();
+  		cmd = tokens(buffer);
+  		_execute(cmd);
+  
+  		/* free(buffer);*/
+  		/* free(cmd);*/
+  	}
+  }
+  ```
+
+  
+
+  
+
+| Function `(name)`                                            | File `(name)`                                                |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| `char *user_input(void);`                                    | [user_input.c](https://github.com/DavidJ001/simple_shell/blob/master/user_input.c) |
+| `char **tokens(char *buffer);`                               | [tokens.c](https://github.com/DavidJ001/simple_shell/blob/master/tokens.c) |
+| `int main(void);`                                            | [shell_main.c](https://github.com/DavidJ001/simple_shell/blob/master/shell_main.c) |
+| `char *_getenv(char *var_name);`                             | [shell_getenv.c](https://github.com/DavidJ001/simple_shell/blob/master/shell_getenv.c) |
+| `int run(char **args);`                                      | [run.c](https://github.com/DavidJ001/simple_shell/blob/master/run.c) |
+| `void *_realloc(void *ptr, size_t old_size, size_t new_size);` | [100-realloc.c](https://github.com/DavidJ001/simple_shell/blob/master/100-realloc.c) |
+| `int _execute(char **args);`<br />`int _exit(char **argv)`   | [execute.c](https://github.com/DavidJ001/simple_shell/blob/master/execute.c) |
+| ** String functions **<br />`int _strlen(char *s);`<br />`char *_strchr(char *s, char c);`<br />`char *_strcat(char *dest, char *src);`<br />`int _strcmp(char *s1, char *s2);`<br />`char *str_concat(char *s1, char *s2);` | <br />[_strlen.c](https://github.com/DavidJ001/simple_shell/blob/master/_strlen.c)<br />[_strchr.c](https://github.com/DavidJ001/simple_shell/blob/master/_strchr.c)<br />[_strcat.c](https://github.com/DavidJ001/simple_shell/blob/master/_strcat.c)<br />[_strcmp.c](https://github.com/DavidJ001/simple_shell/blob/master/3-strcmp.c)<br />[2-str_concat.c](https://github.com/DavidJ001/simple_shell/blob/master/2-str_concat.c) |
+| `man_1_simple_shell`                                         | [man_1_simple_shell](https://github.com/DavidJ001/simple_shell/blob/master/man_1_simple_shell) |
 
 
 
