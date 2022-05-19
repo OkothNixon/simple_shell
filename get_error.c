@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * get_error - calls the error according the builtin, syntax or permission
+ * get_error - calls the error according the built in, syntax or permission
  * @datash: data structure that contains arguments
  * @eval: error value
  * Return: error
