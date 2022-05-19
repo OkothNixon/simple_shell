@@ -2,7 +2,7 @@
 
 /**
  * without_comment - deletes comments from the input
- * wer
+ *
  * @in: input string
  * Return: input without comments
  */

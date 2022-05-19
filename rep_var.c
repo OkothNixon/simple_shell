@@ -2,7 +2,7 @@
 
 /**
  * check_env - checks if the typed variable is an env variable
- * maliza
+ *
  * @h: head of linked list
  * @in: input string
  * @data: data structure
