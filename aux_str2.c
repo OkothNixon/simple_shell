@@ -63,7 +63,7 @@ int cmp_chars(char str[], const char *delim)
 /**
  * _strtok - splits a string by some delimiter.
  * @str: input string.
- * @delim: delimiter
+ * @delim: delimiter.
  *
  * Return: string splited.
  */
