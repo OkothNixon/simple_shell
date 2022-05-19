@@ -2,7 +2,7 @@
 
 # Shell Project `(simple Shell)`
 
-By David Joel, and Nixon Okoth
+By David Joel, and Nixon Okoth.
 
 A simple command-line interpreter developed as an end of trimester project at the ALX-Holberton School.
 
@@ -51,7 +51,7 @@ Example:
 `IT DOES NOT WORK!`<br/>
 
 
-- ### How the shell works?
+- ### How the shell works???
 
   1. ** The shell prompts for user input **
 
